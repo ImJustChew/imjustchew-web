@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
 
@@ -28,13 +27,9 @@ const Home: NextPage = () => {
         <title>Chew Tzi Hwee</title>
       </Head>
       <section className="w-screen py-28 grid place-items-center">
-        <div className='text-left'>
-          <h1 className='text-5xl font-bold text-blue-800'>Chew Tzi Hwee</h1>
-          <p>@imjustchew</p>
-          <ul className='list-none'>
-            <li>{"React & NextJS"}</li>
-            <li>{"Firebase"}</li>
-          </ul>
+        <div className='text-left max-w-[500px] py-4 space-y-4'>
+          <h1 className='text-5xl font-semibold text-blue-800'>Hello, How's it going?</h1>
+          <p>I'm a programmer and electronics engineer since High School. I've worked on various projects and taken on many roles and experiences over the years but I'm still eager to learn new things :)</p>
         </div>
       </section>
     </Layout>
